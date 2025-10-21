@@ -33,10 +33,10 @@ export default function RootLayout({ children }) {
           name="apple-mobile-web-app-status-bar-style"
           content="black-translucent"
         />
-        <meta name="apple-mobile-web-app-title" content="My App" />
+        <meta name="apple-mobile-web-app-title" content="MyPwaApp" />
         <link rel="manifest" href="/manifest.json" />
-        <link rel="icon" href="/globe.svg" />
-        <link rel="apple-touch-icon" href="/globe.svg" />
+        <link rel="icon" href="/pwa-logo.png" />
+        <link rel="apple-touch-icon" href="/pwa-logo.png" />
       </head>
       <body
         className={`${geistSans.variable} ${geistMono.variable} antialiased`}
