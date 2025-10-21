@@ -1,4 +1,4 @@
-import { Eye, Github, Lock, Mail } from "lucide-react";
+import { Eye, Facebook, Lock, Mail } from "lucide-react";
 const Login = () => {
   return (
     <div className="min-h-screen flex items-center justify-center p-4">
@@ -38,8 +38,8 @@ const Login = () => {
               <span className="font-medium">Google</span>
             </button>
             <button className="flex items-center justify-center gap-2 bg-white hover:bg-gray-50 text-black py-3 px-4 rounded-lg transition-colors border border-gray-300">
-              <Github className="w-5 h-5" />
-              <span className="font-medium">GitHub</span>
+              <Facebook className="w-5 h-5" />
+              <span className="font-medium">Facebook</span>
             </button>
           </div>
 
