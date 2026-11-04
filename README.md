@@ -1,36 +1,56 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+<div align="center">
 
-## Getting Started
+# Next.js PWA App
 
-First, run the development server:
+An installable Progressive Web App built with Next.js and next-pwa.
+
+[![Live Demo](https://img.shields.io/badge/Live%20Demo-Visit%20Site-6A3FD1?style=for-the-badge&logo=vercel&logoColor=white)](https://my-pwa-app-opal-iota.vercel.app)
+
+![Next.js](https://img.shields.io/badge/Next.js-000000?style=flat-square&logo=nextdotjs&logoColor=white) ![React](https://img.shields.io/badge/React-20232A?style=flat-square&logo=react&logoColor=white) ![Tailwind CSS](https://img.shields.io/badge/Tailwind%20CSS-06B6D4?style=flat-square&logo=tailwindcss&logoColor=white) ![PWA](https://img.shields.io/badge/PWA-5A0FC8?style=flat-square&logo=pwa&logoColor=white)
+
+</div>
+
+## ✨ Features
+
+- **Installable** on desktop and mobile, with a web manifest
+- Service worker and offline caching through **next-pwa**
+- Auth screens: **login**, **sign up** and **forgot password**
+- Lucide icons and a clean, mobile-first UI
+
+## 🧰 Tech Stack
+
+| Area | Tools |
+| --- | --- |
+| Framework | Next.js (App Router) |
+| PWA | next-pwa |
+| UI | Tailwind CSS, Lucide React |
+
+## 🗺️ Main Routes
+
+| Route | Description |
+| --- | --- |
+| `/` | Home |
+| `/auth/login` | Log in |
+| `/auth/signup` | Sign up |
+| `/auth/forgot-password` | Reset password |
+
+## 🚀 Getting Started
 
 ```bash
+git clone https://github.com/fazlerabbytalukder/my-pwa-app.git
+cd my-pwa-app
+npm install
 npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+The service worker only runs in production. Use `npm run build && npm start` to test installing the app.
 
-You can start editing the page by modifying `app/page.js`. The page auto-updates as you edit the file.
+Then open `http://localhost:3000` in your browser.
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+## 👤 Author
 
-## Learn More
+**Fazle Rabby Talukder** — Frontend Developer
 
-To learn more about Next.js, take a look at the following resources:
+[![Portfolio](https://img.shields.io/badge/Portfolio-000000?style=flat-square&logo=vercel&logoColor=white)](https://fazlerabbytalukder.vercel.app/) [![LinkedIn](https://img.shields.io/badge/LinkedIn-0A66C2?style=flat-square&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/fazle-rabby-talukder/) [![GitHub](https://img.shields.io/badge/GitHub-181717?style=flat-square&logo=github&logoColor=white)](https://github.com/fazlerabbytalukder)
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+If you find this project useful, consider giving it a ⭐!
